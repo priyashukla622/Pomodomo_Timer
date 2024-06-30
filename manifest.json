@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Pomodoro Timer",
+    "description": "A simple Pomodoro timer for your new tab.",
+    "version": "1.0",
+    "permissions": ["activeTab","cookies"],
+    "chrome_url_overrides": {
+      "newtab": "pomodoro.html"
+    },
+    "icons": {
+      "128": "icon.png"
+    }
+  }
+  
